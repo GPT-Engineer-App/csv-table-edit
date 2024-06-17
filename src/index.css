@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Update the background color to light purple */
+body {
+  background-color: #E0D7FF;
+}
+
+/* Update the text color to ensure readability */
+body, h1, h2, h3, h4, h5, h6, p, a {
+  color: #333333;
+}
+
+/* Update button styles to match the light green color */
+button, .btn {
+  background-color: #DFFFD6;
+  color: #333333;
+  border: none;
+}
+
+button:hover, .btn:hover {
+  background-color: #c8e6c9;
+}
+
+/* Update table header background color */
+table th {
+  background-color: #DFFFD6;
+  color: #333333;
+}
+
+/* Update table row background color */
+table tr:nth-child(even) {
+  background-color: #E0D7FF;
+}
+
+/* Update input field styles */
+input[type="text"] {
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #cccccc;
+}
+
+/* Update container styles */
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
